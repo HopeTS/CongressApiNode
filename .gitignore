@@ -1,0 +1,8 @@
+# Build files
+node_modules
+.DS_Store
+dist
+.env
+
+# Reference code from former versions
+other

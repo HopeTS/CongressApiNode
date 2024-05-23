@@ -1,0 +1,29 @@
+{
+  "name": "@hopets/congress-gov-api",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "government",
+    "congress",
+    "api",
+    "wrapper",
+    "node.js",
+    "typescript",
+    "congress.gov"
+  ],
+  "author": "hopets",
+  "license": "MIT",
+  "description": "A node.js wrapper for the Congress.gov API",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
