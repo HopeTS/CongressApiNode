@@ -13,7 +13,10 @@
     "outDir": "dist",
     "rootDir": "src",
     "baseUrl": "src",
-    "types": ["jest", "node"]
+    "types": ["jest", "node"],
+    "paths": {
+      "@/*": ["*"]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

@@ -1,7 +1,7 @@
 import * as Types from "./index.d";
 import CTypes from "congressGovTypes";
 import * as utils from "../utils";
-import * as con from "con";
+import * as con from "@/con";
 
 /**
  * Returns a list of bills sorted by date of latest action.
