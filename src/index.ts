@@ -1,3 +1,1 @@
-export function helloWorld() {
-  return "Hello World!";
-}
+export * as Bill from "./bill";

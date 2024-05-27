@@ -4,7 +4,7 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "strictNullChecks": true,
-    "target": "ES2022",
+    "target": "ES6",
     "moduleResolution": "Node10",
     "module": "CommonJS",
     "declaration": true,
@@ -12,7 +12,8 @@
     "noEmit": true,
     "outDir": "dist",
     "rootDir": "src",
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "types": ["jest", "node"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
