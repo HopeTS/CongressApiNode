@@ -1,6 +1,6 @@
-import * as Types from "./index.d";
-import CTypes from "congressGovTypes";
-import * as utils from "../utils";
+import * as Types from "./types";
+import * as CTypes from "@/congressGovTypes";
+import * as utils from "@/utils";
 import * as con from "@/con";
 
 /**
