@@ -9,7 +9,12 @@ afterEach(() => {
 
 describe("Bill functions (all /bill endpoints)", () => {
   test("get (/bill endpoint)", async () => {
-    const result = await bill.get({ APIKey: API_KEY });
+    const result = await bill.get({
+      APIKey: API_KEY,
+      params: {
+        offset: -1,
+      },
+    });
     expect(result.bills).toBeDefined();
   });
 
